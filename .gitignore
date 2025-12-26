@@ -1,0 +1,16 @@
+
+target/
+*.class
+
+.settings/
+.classpath
+.project
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+data/
+*.mv.db
