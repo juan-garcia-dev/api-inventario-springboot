@@ -1,24 +1,10 @@
 package com.inventario.appinventario;
 
-import com.inventario.appinventario.entity.Categoria;
-import com.inventario.appinventario.entity.Producto;
-import com.inventario.appinventario.repository.CategoriaRepository;
-import com.inventario.appinventario.repository.ProductoRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Application {
-
-    private final CategoriaRepository categoriaRepository;
-
-
-    Application(CategoriaRepository categoriaRepository) {
-        this.categoriaRepository = categoriaRepository;
-    }
-
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
